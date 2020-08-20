@@ -2,9 +2,9 @@
 
 The project was done in Netbeans IDE using the drag and drop feature ,so the code contains a lot of complicated portion of the internal functioning.
 To make it easier , the 5 important methods that were manually coded by me are pasted below.
-..........................................................................................................................................................................  
+............................................................................................. 
        
-                                                               #1 WHEN ADD BUTTON IS PRESSED
+                                #1 WHEN ADD BUTTON IS PRESSED
 
 
   private void buttonaddActionPerformed(java.awt.event.ActionEvent evt) {                                          
@@ -46,7 +46,7 @@ To make it easier , the 5 important methods that were manually coded by me are p
         
     }       
      
-..........................................................................................................................................................................
+.....................................................................
 
  
                        #2- WHEN AN ENTRY ON JTABLE IS CLICKED (IS USED FOR EDIT/DELETE OF THAT ENTRY)
@@ -63,8 +63,8 @@ To make it easier , the 5 important methods that were manually coded by me are p
     }                           
   
                                   
-..............................................................................................................................................................................
-                                                       #3 WHEN DELETE BUTTON IS PRESSED       
+..............................................................
+                                   #3 WHEN DELETE BUTTON IS PRESSED       
                                                        
         Connection con;
     PreparedStatement st;
@@ -99,8 +99,8 @@ To make it easier , the 5 important methods that were manually coded by me are p
             Logger.getLogger(reg.class.getName()).log(Level.SEVERE, null, ex);
         }
     }           
- ..........................................................................................................................................................................
-                                                                   #4 WHEN EDIT BUTTON IS PRESSED
+ ..........................................................
+                             #4 WHEN EDIT BUTTON IS PRESSED
                                                                    
                                                                    
  private void buttoneditActionPerformed(java.awt.event.ActionEvent evt) {                                           
@@ -147,8 +147,8 @@ To make it easier , the 5 important methods that were manually coded by me are p
         }
         
     }                                          
-..........................................................................................................................................................
-                                                                    #5 METHOD TO UPDATE THE JTABLE
+.................................................
+                    #5 METHOD TO UPDATE THE JTABLE
                                                                     
   //method to load values from the database into the JTable
     private void table_update()
@@ -193,4 +193,4 @@ To make it easier , the 5 important methods that were manually coded by me are p
         
     }
     
-    ..............................................................................................................................................................                                                                    
+    ........................................                                                                
